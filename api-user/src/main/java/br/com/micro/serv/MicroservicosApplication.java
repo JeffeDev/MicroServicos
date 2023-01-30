@@ -25,6 +25,7 @@ public class MicroservicosApplication implements CommandLineRunner{
 		userRepository.saveAll(List.of(
 				new UserEntity(null, "Jefferson", "email@gmail.com", "123", 1500.00),
 				new UserEntity(null, "Pedro", "emailpedro@gmail.com", "123", 1000.00),
+				new UserEntity(null, "Matheus", "emailmatheus@gmail.com", "123", 1000.00),
 				new UserEntity(null, "Patricia", "emailpatricia@gmail.com", "123", 250.00)
 		));
 		
